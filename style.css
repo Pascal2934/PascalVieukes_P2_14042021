@@ -58,6 +58,88 @@ color: #0065fc;
 
 /* SECTION RECHERCHE */
 
+.recherche {
+    display: block;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+/* titre */
+.recherche h1 {
+  font-size: 30px;
+  margin-top: 1vw;
+  margin-right: 20px;
+  clear: left;
+}
+
+/* paragraphe */
+.recherche p {
+  margin-left: 0;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+/* Bloc Formulaire*/
+
+.searchform {
+  padding-top: 10px;
+  border-radius: 1rem 0 0 1rem;
+  text-align: center;
+  display: flex;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+/* Pointeur carte */
+.mapmarker {
+  min-width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  font-size: 1.2em;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  }
+
+.fa, .fas {
+  font-weight: 900;
+  display: none;
+}
+
+/* Encart Marseille */
+.searchfield {
+  width: 12rem;
+  border-top: solid #f2f2f2 1px;
+  border-bottom: solid #f2f2f2 1px;
+  border-left: none;
+  border-right: none;
+  font-family: "raleway", sans-serif;
+  font-weight: bold;
+  font-size: initial;
+  padding-left: 20px;
+}
+
+/* Bouton de recherche */
+
+.searchbuttonsubmit {
+  width: 132px;
+  background-color: #0065fc;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: initial;
+  color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  
+}
+
+.searchbuttonsubmit i {
+  font-size: 0;
+}
 @media only screen and (max-width: 768px){
 
 /* HEADER */
@@ -104,4 +186,21 @@ border-bottom: solid 2.5px #0065fc;
 a:hover {
 color: #0065fc ;
 }
+
+.searchbuttonsubmittext{
+    display:none;
+  }
+.searchbuttonsubmit i {
+    font-size: initial;
+  }
+
+  .searchbuttonsubmit {
+    width:50px;
+    cursor: pointer;
+  }
+
+  .searchfield {
+    flex:1;
+  }
+
 }
