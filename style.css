@@ -58,13 +58,13 @@ color: #0065fc;
 
 /* SECTION RECHERCHE */
 
-.recherche {
+section {
     display: block;
     margin-left: 1.5em;
     margin-right: 1.5em;
 }
 
-/* titre */
+/* Titre */
 .recherche h1 {
   font-size: 30px;
   margin-top: 1vw;
@@ -140,6 +140,83 @@ color: #0065fc;
 .searchbuttonsubmit i {
   font-size: 0;
 }
+
+/* SECTION FILTRES */
+
+.filter h3 {
+  font-size: 22px;
+  margin-top: 18px;
+  margin-right: 50px;
+  clear: left;
+}
+
+.recherche p {
+  margin-left: 0;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.buttonfilter {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  border: 2px solid #f2f2f2;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.buttonfiltericon {
+  background-color: #DEEBFF;
+  color: #0065fc;
+  border-radius: 100%;
+  display: flex;
+  min-height: 60px;
+  min-width: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+#buttonfiltersearch {
+  display: flex;
+  padding-top: 30px;
+  margin-right: 2rem;
+  border-width: 5px;
+  border-radius: 2em;
+  margin-bottom: 1rem;
+  
+}
+
+.buttonwriting {
+  margin: 0 1rem;
+}
+
+.infoicon{
+  color: #0065fc;
+  height: 2rem;
+  width: 2rem;
+  min-height: 2rem;
+  min-width: 2rem;
+  border: 2px solid #d9d9d9;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1px;
+}
+
+.info {
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.infosearch {
+  margin-left: 20px;
+  display: flex;
+  width: 100%;
+}
 @media only screen and (max-width: 768px){
 
 /* HEADER */
@@ -157,6 +234,8 @@ header > a {
   margin-top: 1em;
   order: 2;
 }
+
+/* RECHERCHE */
 
 .logo {
   margin-top: 0;
@@ -202,5 +281,17 @@ color: #0065fc ;
   .searchfield {
     flex:1;
   }
+
+  /* FILTRES */
+
+  h3 {
+    width:100%;
+    }
+  
+  #buttonfiltersearch {
+    display: flex;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    }
 
 }
