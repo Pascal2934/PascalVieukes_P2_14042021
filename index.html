@@ -8,7 +8,7 @@
         <script src="https://kit.fontawesome.com/e6fd51a1c9.js" crossorigin="anonymous"></script>
 
     <body>
-
+        <main>
         <!-- HEADER -->
  
         <header>
@@ -81,24 +81,23 @@
         </section>
 
         <!-- SECTION HEBERGEMENTS -->
-
+        <div id="hostingpopular">
         <section class="hebergements">
-            <div id="hostel">
-                <h2 class="hostingtitle">Hébergements à Marseille</h2>
-                <div id="cards">
+            <h2>Hébergements à Marseille</h2>
+            <div id="cards">
                     <a href="#" class="boxcard">
                     <figure>
                         <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="auberge de la canebiere" class="hostinghostel"/>
                         <figcaption class="hostingcard">
                             <h3>Auberge de la Canebière</h3>
                             <p class="nuit">Nuit à partir de <span class="price">25€</span></p>
-                            <p class="star">
+                            <div class="star">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <span class="nostar"><i class="fas fa-star"></i></span>
-                            </p>
+                            </div>
                         </figcaption>
                     </figure>
                     </a>              
@@ -108,13 +107,13 @@
                         <figcaption class="hostingcard">
                             <h3>Hôtel du port</h3>
                             <p class="nuit">Nuit à partir de <span class="price">52€</span></p>
-                            <p class="star">
+                            <div class="star">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
-                            </p>
+                            </div>
                         </figcaption>
                     </figure>
                     </a>
@@ -124,13 +123,13 @@
                         <figcaption class="hostingcard">
                             <h3>Hôtel Les mouettes</h3>
                             <p class="nuit">Nuit à partir de <span class="price">76€</span></p>
-                            <p class="star">
+                            <div class="star">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <span class="nostar"><i class="fas fa-star"></i></span>
-                            </p>
+                            </div>
                         </figcaption>
                     </figure>
                     </a>  
@@ -140,13 +139,13 @@
                         <figcaption class="hostingcard">
                             <h3>Hôtel de la mer</h3>
                             <p class="nuit">Nuit à partir de <span class="price">46€</span></p>
-                            <p class="star">
+                            <div class="star">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <span class="nostar"><i class="fas fa-star"></i></span>
                                 <span class="nostar"><i class="fas fa-star"></i></span>
-                            </p>
+                            </div>
                         </figcaption>
                     </figure>
                     </a> 
@@ -156,13 +155,13 @@
                         <figcaption class="hostingcard">
                             <h3>Auberge Le Panier</h3>
                             <p class="nuit">Nuit à partir de <span class="price">23€</span></p>
-                            <p class="star">
+                            <div class="star">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <span class="nostar"><i class="fas fa-star"></i></span>
-                            </p>
+                            </div>
                         </figcaption>
                     </figure>
                     </a>  
@@ -172,19 +171,84 @@
                         <figcaption class="hostingcard">
                             <h3>Hôtel chez Amina</h3>
                             <p class="nuit">Nuit à partir de <span class="price">96€</span></p>
-                            <p class="star">
+                            <div class="star">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
-                            </p>
+                            </div>
                         </figcaption>
                     </figure>
                     </a>     
                 </div>
                 <a href="#" class="more">Afficher plus</a>
             </div>
-        </section>  
+        </section> 
+        <!--
+        <section class="pop">
+                
+            <div id="populaires">
+                <div class="popu">
+                    <h2>Les plus populaires</h2>
+                    <i class="fas fa-chart-line"></i>
+                </div>              
+                <div id="cardpop"> <!-- 3 blocs composés d'1 lien + 1 figure + 1 légende 
+                    <a href="#" class="poproom">
+                    <figure>
+                        <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="hotel le soleil du matin" class="popcard"/>
+                        <figcaption class="popularCard">
+                            <h3 class="lieu">Hôtel le soleil du matin</h3>
+                            <p class="nuit">Nuit à partir de <strong class="price">128€</strong></p>
+                            <br/>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    </a>
+            <a href="#" class="poproom">
+                <figure>
+                    <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau" class="popcard"/>
+                    <figcaption class="popularCard">
+                        <h3>Au coeur de l'eau<br/>Chambre d'hôtes</h3>
+                        <p class="nuit">Nuit à partir de <strong class="price">71€</strong></p>
+                        <br/>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="nostar"><i class="fas fa-star"></i></span>
+                        </div>
+                    </figcaption>
+                </figure>
+            </a>
+            <a href="#" class="poproom">
+                <figure>
+                    <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hotel tout bleu et Blanc" class="popcard"/>
+                    <figcaption class="popularCard">
+                        <h3>Hôtel Tout bleu et Blanc</h3>
+                        <p class="nuit">Nuit à partir de <strong class="price">68€</strong></p><br/>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="nostar"><i class="fas fa-star"></i></span>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+                </div>
+        
+            </div>
+        </section>-->
+        </div>
+        </main>
         </body>
         </html>
