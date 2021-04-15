@@ -217,7 +217,104 @@ section {
   display: flex;
   width: 100%;
 }
-@media only screen and (max-width: 768px){
+
+/* HEBERGEMENTS */
+
+#hostel {
+  background-color: #f2f2f2;
+  width: 60%;
+  border-radius: 20px;
+  margin-right: 10px;
+  padding: 20px 0px 30px 20px;
+}
+
+/* Etiquettes */
+
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+ /* justify-content: space-around;
+  margin-right: 20px;*/
+}
+
+.boxcard {
+  display: flex;
+  width: 32%;
+  min-width: 200px;
+  /*margin-left: 12px;*/
+  /*margin-right: 15px;*/
+  height: 300px;
+  }
+
+.boxcard figure {
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 10px 10px 10px #c3c3c3;
+}
+
+/*.hostingtitle {
+  margin-left: 12px;
+}*/
+.hostingcard {
+  margin-left: 10px;
+  font-size: 15px;
+  line-height: 1;
+}
+
+/* Images Etiquettes */
+
+.hostinghostel {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 59%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+figure {
+  border-radius: 20px;
+  margin: 15px;
+  padding: 5px;
+}
+/* Prix chambre */
+
+.price {
+  font-weight: bold;
+}
+
+/* Liens */
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Etoiles */
+
+.star {
+  color: #0065fc;
+}
+
+.nostar {
+  color:#d9d9d9;
+}
+
+/* Afficher */
+
+.more {
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+/* ECRANS TABLETTES */
+
+/*@media only screen and (min-width: 768px) and (max-width: 1024px) {/*
+
+
+/* ECRANS TELEPHONES PORTABLES */
+
+@media only screen and (max-width: 767px){
 
 /* HEADER */
 
@@ -294,4 +391,32 @@ color: #0065fc ;
     flex-wrap: wrap;
     }
 
+/* HEBERGEMENTS */
+
+#hostel {
+  background-color: white;
+  max-width: 100%;
+  padding: 15px 10px 0px 0px;
+}
+
+#cards {
+  width: 100%;
+}
+
+.boxcard {
+  width: 100%;
+  min-width: 400px;
+  height: 200px;
+  margin-left: -1.5em;
+}
+
+.hostingtitle {
+  margin-left: 8px;
+  font-size: 1em;
+}
+
+.hostingcard{
+  font-size : 12px;
+  line-height: 3.5px;
+}
 }
