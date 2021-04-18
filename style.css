@@ -257,7 +257,7 @@ flex-direction: column;
 position:relative;
 margin: 15px 0;
 width: 28%;
-height: 170px;
+height: 270px;
 box-shadow: 2px 2px 7px #d9d9d9;
 }
 
@@ -373,6 +373,7 @@ font-weight: bold;
   height: 180px;
   min-width :320px;
   margin-right: 15px;
+  margin-bottom: 1em;
   border-radius: 20px;
   box-shadow: 10px 10px 10px #c3c3c3;
 }
@@ -427,6 +428,7 @@ main {
 }
 .pop {
   flex-direction: row;
+  order:1;
 }
 }
 
@@ -558,7 +560,7 @@ margin-left: -1em;
   min-width: 40%;
 }
 
-#cardpop {
+#cardpop, #cards {
   margin: auto;
 }
 
