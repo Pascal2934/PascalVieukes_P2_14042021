@@ -84,6 +84,7 @@ section {
   display: block;
   margin-left: 1.5em;
   margin-right: 1.5em;
+  padding: 15px;
 }
 
 /* Titre */
@@ -239,7 +240,6 @@ width: 100%;
 
 .hebergements {
 flex: 9;
-padding: 15px;
 border-radius: 20px;
 background-color:#f2f2f2;
 }
@@ -283,7 +283,6 @@ border-top-left-radius: 15px;
 border-top-right-radius: 15px;
 width: 100%;
 height: 59%;
--o-object-fit: cover;
 object-fit: cover;
 }
 
@@ -377,15 +376,10 @@ font-weight: bold;
   border-radius: 20px;
   box-shadow: 10px 10px 10px #c3c3c3;
 }
-/*.poproom {
-  height: 100%;
-  margin: 15px 10px;
-}*/
 
 .poproom figure {
   background-color: white;
   display: flex;
- /* box-shadow: 10px 10px 10px #c3c3c3;*/
 }
 
 .popcard {
@@ -418,6 +412,95 @@ display: flex;
 .star {
  font-size: 0.8em;
 }
+
+/* ACTIVITES */
+
+#cardactivities {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2em;
+  height: 450px;
+}
+
+#cardactivities a:hover {
+  color: black;
+}
+
+.location_1 {
+  display: flex;
+  height: 450px;
+  box-shadow: 2px 2px 20px #d9d9d9;
+}
+
+.location_2 {
+  display:flex;
+  flex-direction: column;
+  height: 450px;
+  justify-content: space-between;
+}
+
+.activities_1 {
+  border-radius: 20px;
+  width: 300px;
+  height: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+.activities_2 {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 300px;
+  height: 41%;
+  padding: 0;
+  margin: 0;
+}
+
+.activities_3 {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
+  height: 86%;
+  padding-bottom: 10px;
+  object-fit: cover;
+}
+
+.locactivities_1{
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 300px;
+  height: 100%;
+}
+
+.locactivities_2{  
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 300px;
+  height: 70%;
+  object-fit: cover;
+}
+
+.locactivities_3{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 300px;
+  height: 65%;
+  padding-bottom: 10px;
+  object-fit: cover;
+}
+
+.location_1, .activities_1, .activities_2 {
+  box-shadow: 2px 2px 20px #d9d9d9;
+  border-radius: 20px;
+  padding-bottom: 0.5em;
+}
+.activitesCard{
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 20px;
+  margin-top : 5px;
+  padding-top: 1em;
+}
 /*          MEDIA QUERIES          */
 
 @media only screen and (min-width: 768px) and (max-width: 1024px){
@@ -438,6 +521,12 @@ main {
 .pop { /* modif dimanche soir */
   height: auto;
   order:1;
+  margin-right: -25px;
+  margin-left: 25px;
+}
+
+.poproom {
+  min-width: 0;
 }
 #cards { /* modif dimanche soir */
   width : auto;
@@ -552,11 +641,13 @@ flex-direction: column;
 
 .boxcard {
 width: 100%;
-min-width: 400px;
+min-width: 370px;
 height: 200px;
-margin-left: -1em;
 }
 
+.more {
+  margin-left: 0;
+}
 /* POPULAIRES */
 
 .pop {
@@ -576,7 +667,7 @@ margin-left: -1em;
   min-width: 40%;
 }
 
-#cardpop, #cards {
+#cardpop, #cards, #cardactivities {
   margin: auto;
 }
 
@@ -586,5 +677,49 @@ margin-left: -1em;
 #hostingpopular {
   flex-direction: column;
 }
+
+/* ACTIVITES */
+
+#cardactivities {
+  flex-direction: column;
+  height: 100%;
+}
+
+.location_1 {
+  width: 100%;
+  height: 170px;
+}
+
+.location_2 {
+  width: 100%;
+  height: 170px;
+}
+.locactivities_1 {
+  width: 100%;
+  height: 75;
+  object-fit: cover;
+}
+.locactivities_2, .locactivities_3 {
+  width: 100%;
+  height: 75%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  object-fit: cover;
+}
+.activities_3 {
+  width: 100%;
+  height: 120px;
+}
+
+.activities_2 {
+  width: 100%;
+  height: 120px;
+}
+
+.activities_1 {
+  width: 100%;
+  height: 120px;
+}
+
 
 }
