@@ -683,43 +683,55 @@ height: 200px;
 #cardactivities {
   flex-direction: column;
   height: 100%;
-}
+  justify-content: space-between;
+  }
 
 .location_1 {
   width: 100%;
   height: 170px;
+  margin: 10px 0;
 }
 
 .location_2 {
   width: 100%;
-  height: 170px;
+  height: 120%;
+  justify-content: center;
+  margin: 10px 0;
 }
+
 .locactivities_1 {
   width: 100%;
-  height: 75;
+  height: 100px;
   object-fit: cover;
 }
 .locactivities_2, .locactivities_3 {
   width: 100%;
-  height: 75%;
+  /*height: 110px;*/
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   object-fit: cover;
+  justify-content:space-evenly;
+}
+.locactivities_2{
+  height: 90px;
+}
+
+.locactivities_3{
+  height: 107px;
+}
+.activities_1 {
+  width: 100%;
+  height: 150px;
+  margin: 15px 0;
+}
+.activities_2 {
+  width: 100%;
+  height: 150px;
+  margin: 20px 0;
 }
 .activities_3 {
   width: 100%;
-  height: 120px;
+  height: 150px;
 }
-
-.activities_2 {
-  width: 100%;
-  height: 120px;
-}
-
-.activities_1 {
-  width: 100%;
-  height: 120px;
-}
-
 
 }
