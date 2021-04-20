@@ -516,13 +516,14 @@ main {
 .hebergements {  /* modif dimanche soir */
   order:2;
   width: 1024px;
+  margin: 15px 15px;
 }
 
 .pop { /* modif dimanche soir */
   height: auto;
   order:1;
-  margin-right: -25px;
-  margin-left: 25px;
+  margin-left: 15px;
+  margin-right:-15px;
 }
 
 .poproom {
@@ -534,6 +535,31 @@ main {
 
 #cardpop { /*modif dimanche soir */
   flex-direction: row;
+}
+
+/* ACTIVITES */
+
+#cardactivities {
+  width: 1024px;
+  margin: 15px 0;
+}
+.activities_1, .activities_2, .activities_3 {
+  width: 200px;
+}
+
+.locactivities_1{
+  height: 80%;
+  width: 200px;
+}
+
+.locactivities_2{
+  height: 45%;
+  width: 200px;
+}
+
+.locactivities_3{
+  height: 35%;
+  width: 200px;
 }
 }
 
@@ -641,7 +667,6 @@ flex-direction: column;
 
 .boxcard {
 width: 100%;
-min-width: 370px;
 height: 200px;
 }
 
@@ -721,12 +746,12 @@ height: 200px;
 }
 .activities_1 {
   width: 100%;
-  height: 150px;
+  height: 160px;
   margin: 15px 0;
 }
 .activities_2 {
   width: 100%;
-  height: 150px;
+  height: 180px;
   margin: 20px 0;
 }
 .activities_3 {
