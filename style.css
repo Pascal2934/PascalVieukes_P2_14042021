@@ -244,6 +244,10 @@ border-radius: 20px;
 background-color:#f2f2f2;
 }
 
+#cards {
+  margin-bottom: 20px;
+}
+
 .hebergements > #cards {
 display: flex;
 flex-wrap: wrap;
@@ -272,8 +276,8 @@ text-decoration: none;*/
 
 .hostingcard{
 flex-direction: column;
-justify-content: space-between;
 margin: 5px 0 2px 0;
+padding: 5px;
 }
 
 /* Images Etiquettes */
@@ -295,6 +299,11 @@ background-position: center;
 }
 
 /* Prix chambre */
+
+.nuit {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
 
 .price {
 font-weight: bold;
@@ -349,7 +358,7 @@ font-weight: bold;
   height: 100%;
   background-size: cover;
   background-position: center;
-  margin: 5px 5px 20px 15px;
+  margin: 20px 5px 20px 15px;
 }
 .popularCard {
   border-bottom-right-radius: 20px;
@@ -370,9 +379,8 @@ font-weight: bold;
 .poproom  /* taille de chaque boite*/{
   display: flex;
   height: 180px;
-  min-width :320px;
   margin-right: 15px;
-  margin-bottom: 1em;
+  margin-bottom: 30px;
   border-radius: 20px;
   box-shadow: 10px 10px 10px #c3c3c3;
 }
@@ -413,6 +421,9 @@ display: flex;
  font-size: 0.8em;
 }
 
+.more {
+  margin-top: 30px;
+}
 /* ACTIVITES */
 
 #cardactivities {
@@ -685,11 +696,7 @@ height: 200px;
 }
 
 .poproom {
-  margin: 6px 0;
-}
-
-.poproom img {
-  min-width: 40%;
+  margin: 10px 0;
 }
 
 #cardpop, #cards, #cardactivities {
