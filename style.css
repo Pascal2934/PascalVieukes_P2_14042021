@@ -553,7 +553,7 @@ footer a:hover {
 @media only screen and (min-width: 768px) and (max-width: 1024px){
 
 main {
-  max-width: 990px;
+  max-width: 100%;
   
 }
 
@@ -572,14 +572,17 @@ header {
 .hebergements {  
   order:2;
   width: 990px;
-  margin: 15px 10px;
+  margin-left: 15px;
 }
 
+.boxcard {
+  height: 200px;
+}
 .pop {
   height: auto;
   order:1;
   width: 990px;
-  margin: 0 10px;
+  margin-left: 15px;
 }
 
 .poproom {
@@ -587,6 +590,10 @@ header {
 }
 #cards { 
   width : auto;
+}
+
+.popularCard, .hostingcard {
+  font-size: 13px;
 }
 
 #cardpop {
@@ -877,6 +884,7 @@ height: 200px;
 footer {
   flex-direction: column;
   margin-top: 30px;
+  height: 350px;
 }
 
 footer ul {
