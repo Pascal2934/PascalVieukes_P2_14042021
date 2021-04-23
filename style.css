@@ -237,13 +237,13 @@ width: 100%;
 
 /* HEBERGEMENTS */
 
-.hebergements {
+#hebergements {
 flex: 9;
 border-radius: 20px;
 background-color:#f2f2f2;
 }
 
-.hebergements h2 {
+#hebergements h2 {
   margin: 5px 10px 5px 10px;
 }
 
@@ -251,7 +251,7 @@ background-color:#f2f2f2;
   margin-bottom: 45px;
 }
 
-.hebergements > #cards {
+#hebergements > #cards {
 display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
@@ -569,7 +569,7 @@ header {
   flex-direction: column;
 }
 
-.hebergements {  
+#hebergements {  
   order:2;
   width: 990px;
   margin-left: 15px;
@@ -755,25 +755,25 @@ h3 {
 
 /* HEBERGEMENTS */
 
-.hebergements {
+#hebergements {
 background-color: white;
 max-width: 100%;
 padding: 15px 10px 5px 5px;
 order: 2;
 }
 
-.hebergements, .pop {
+#hebergements, .pop {
   margin-left:0;
   margin-right: 0;
   padding: 20px;
   border-radius: 0;
 }
 
-.hebergements h2 {
+#hebergements h2 {
   margin: 0;
 }
 
-.hebergements > #cards {
+#hebergements > #cards {
 flex-direction: column;
 }
 
