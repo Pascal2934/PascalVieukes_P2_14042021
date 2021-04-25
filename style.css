@@ -366,7 +366,7 @@ font-weight: bold;
 .popularCard {
   border-bottom-right-radius: 20px;
   margin: 10px 0;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .popularCard h3 {
@@ -379,7 +379,7 @@ font-weight: bold;
 }
 
 #carpop .popcard {
-  flex: 2;
+  flex: 2 2 0;
   height:initial;
   border-radius: 20px;
   background-color: black;
@@ -391,7 +391,6 @@ font-weight: bold;
   margin-bottom: 30px;
   border-radius: 20px;
   box-shadow: 5px 5px 8px #d9d9d9;
-  flex: 2 2 10%;
 }
 
 .poproom figure {
@@ -431,7 +430,7 @@ display: flex;
   color: #0065fc;
   }
   
-  .nostar {
+.nostar {
   color:#d9d9d9;
   }
 
