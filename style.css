@@ -391,7 +391,7 @@ font-weight: bold;
   margin-bottom: 30px;
   border-radius: 20px;
   box-shadow: 5px 5px 8px #d9d9d9;
-  flex: auto;
+  flex: 2 2 10%;
 }
 
 .poproom figure {
@@ -559,7 +559,6 @@ footer a:hover {
 
 main {
   max-width: 100%;
-  
 }
 
 section {
@@ -817,11 +816,14 @@ height: 200px;
   margin: 20px 0;
 }
 
-.potext {
-  font-size: 85%;
+.poptext {
+  font-size: 100%;
+  margin-bottom: 80px;
 }
+
 .poproom {
   margin: 10px 0;
+  flex: auto;
 }
 
 #cardpop, #cards, #cardactivities {
