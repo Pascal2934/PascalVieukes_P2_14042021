@@ -358,7 +358,7 @@ font-weight: bold;
 #cardpop {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 90%;
   background-size: cover;
   background-position: center;
   margin: 20px 5px 20px 15px;
@@ -668,7 +668,7 @@ padding: 0;
 }
 
 h3, p {
-  font-size: 0.9em;
+  font-size: 1.1em;
 }
 
 /* HEADER */
@@ -687,14 +687,13 @@ margin-top: 1em;
 order: 2;
 }
 
-/* RECHERCHE */
-
 .logo {
 margin-top: 0;
 margin-left: 20px;
 margin-right: auto;
 order: 1;
 }
+
 nav {
 flex-basis: auto;
 margin-top: -2em;
@@ -721,9 +720,7 @@ border-top: none;
 border-bottom: solid 2.5px #0065fc;
 }
 
-a:hover {
-color: #0065fc ;
-}
+/* RECHERCHE */
 
 .searchbuttonsubmittext{
   display:none;
@@ -753,9 +750,7 @@ h3 {
   width:100%;
   }
 
-
-
-.filter h3 {
+  .filter h3 {
   margin-bottom: 10%;
 }
 
@@ -860,7 +855,7 @@ height: 200px;
 
 .locactivities_1 {
   width: 100%;
-  height: 105px;
+  height: 83%;
   object-fit: cover;
 }
 .locactivities_2, .locactivities_3 {
@@ -871,11 +866,11 @@ height: 200px;
   justify-content:space-evenly;
 }
 .locactivities_2{
-  height: 100px;
+  height: 69%;
 }
 
 .locactivities_3{
-  height: 115px;
+  height: 72%;
   padding-bottom: 0;
 }
 .activities_1 {
@@ -893,7 +888,7 @@ height: 200px;
   height: 150px;
 }
 .activitesCard {
-  margin-top: 5px;
+  margin-top: 0;
 }
 
 /* FOOTER */
@@ -925,4 +920,6 @@ footer h3 {
     margin-right:12px;
     font-size : 105%;
   }
+
+  
 }
