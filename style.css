@@ -72,10 +72,11 @@ text-decoration: none;
 transition: color .2s;
 }
 
-header > a {
+.sinscrire {
 margin-right: 10px;
 margin-top: 1em;
 font-weight: bold;
+style:#0065fc;
 color: #0065fc;
 }
 
@@ -680,7 +681,7 @@ align-items: center;
 padding-top: 20px;
 }
 
-header > a {
+.sinscrire {
 padding: 5px;
 margin-right: 20px;
 margin-top: 1em;
